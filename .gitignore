@@ -27,3 +27,9 @@
 
 # OS X crap
 .DS_Stor?
+
+# Build
+build
+
+# VSCode binaries
+.vscode/*.db*

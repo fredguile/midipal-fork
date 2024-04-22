@@ -28,7 +28,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t monitor_factory_data[1] PROGMEM = { 0 };
+const uint8_t monitor_factory_data[1] PROGMEM = { 0 };
 
 /* static */
 uint8_t Monitor::monitored_channel_;

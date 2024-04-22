@@ -30,7 +30,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t sequencer_factory_data[141] PROGMEM = {
+const uint8_t sequencer_factory_data[141] PROGMEM = {
   0, 0, 120, 0, 0,
   12, 0, 74, 1, 1, 1, 1, 8,
   48, 12, 15, 127,

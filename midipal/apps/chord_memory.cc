@@ -27,7 +27,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t chord_memory_factory_data[kMaxChordNotes + 2] PROGMEM = {
+const uint8_t chord_memory_factory_data[kMaxChordNotes + 2] PROGMEM = {
   0, 4, 60, 63, 67, 70, 48, 48, 48, 48, 48, 48,
 };
 

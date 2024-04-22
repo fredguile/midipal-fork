@@ -59,9 +59,9 @@ import lookup_tables
 import strings
 
 resources = [
-  (strings.strings, 'string', 'STR_RES', 'prog_char', str, False),
+  (strings.strings, 'string', 'STR_RES', 'PGM_P', str, False),
   (lookup_tables.lookup_tables,
-   'lookup_table', 'LUT_RES', 'prog_uint16_t', int, False),
-  (characters.characters, 'character', 'CHR_RES', 'prog_uint8_t', int, True),
-  (lookup_tables.waveforms, 'waveform', 'WAV_RES', 'prog_uint8_t', int, True),
+   'lookup_table', 'LUT_RES', 'uint16_t', int, False),
+  (characters.characters, 'character', 'CHR_RES', 'uint8_t', int, True),
+  (lookup_tables.waveforms, 'waveform', 'WAV_RES', 'uint8_t', int, True),
 ]

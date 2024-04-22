@@ -41,7 +41,7 @@ enum VoiceMode {
   
 using namespace avrlib;
 
-const prog_uint8_t scale_processor_factory_data[6] PROGMEM = {
+const uint8_t scale_processor_factory_data[6] PROGMEM = {
   0, 0, 1, 0, -12, 0
 };
 

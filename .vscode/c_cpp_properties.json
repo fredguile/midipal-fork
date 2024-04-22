@@ -1,0 +1,48 @@
+{
+    "env": {
+        "myIncludePath": [
+            "/usr/lib/gcc/avr/5.4.0/include/",
+            "/usr/lib/avr/include/",
+            "/usr/include/x86_64-linux-gnu/"
+        ],
+        "myDefines": [
+            "DEBUG"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "WSL",
+            "compilerPath": "/usr/bin/avr-gcc",
+            "compilerArgs": [],
+            "intelliSenseMode": "linux-gcc-x86",
+            "includePath": [
+                "${myIncludePath}",
+                "/usr/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "${myDefines}"
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "forcedInclude": [],
+            "compileCommands": "",
+            "mergeConfigurations": true,
+            "customConfigurationVariables": {
+                "myVar": "myvalue"
+            },
+            "browse": {
+                "path": [
+                    "${myIncludePath}",
+                    "/usr/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+}

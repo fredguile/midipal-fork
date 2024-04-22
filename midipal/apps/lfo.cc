@@ -30,7 +30,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t lfo_factory_data[31] PROGMEM = {
+const uint8_t lfo_factory_data[31] PROGMEM = {
   0, 0, 120, 0, 0, 16, 0,
   
   7, 63, 63, 0, 2, 0,

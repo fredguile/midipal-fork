@@ -43,7 +43,7 @@ enum ArpeggiatorDirection {
   ARPEGGIO_DIRECTION_CHORD
 };
 
-const prog_uint8_t arpeggiator_factory_data[12] PROGMEM = {
+const uint8_t arpeggiator_factory_data[12] PROGMEM = {
   0, 120, 0, 0, 0, 0, 1, 0, 16, 12, 14, 0
 };
 

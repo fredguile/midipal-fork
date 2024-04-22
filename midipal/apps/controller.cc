@@ -25,7 +25,7 @@
 
 namespace midipal { namespace apps {
 
-const prog_uint8_t controller_factory_data[9] PROGMEM = {
+const uint8_t controller_factory_data[9] PROGMEM = {
   0, 7, 10, 74, 71, 73, 80, 72, 91
 };
 

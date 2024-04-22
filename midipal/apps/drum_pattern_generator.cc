@@ -27,7 +27,7 @@
 
 namespace midipal { namespace apps {
 
-const prog_uint8_t drum_pattern_generator_factory_data[10] PROGMEM = {
+const uint8_t drum_pattern_generator_factory_data[10] PROGMEM = {
   0, 0, 120, 0, 0, 9, 36, 40, 42, 56
 };
 
@@ -91,7 +91,7 @@ const prog_AppInfo DrumPatternGenerator::app_info_ PROGMEM = {
   true
 };
 
-static const prog_uint8_t sizes[12] PROGMEM = {
+static const uint8_t sizes[12] PROGMEM = {
   0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 14, 16  
 };
 

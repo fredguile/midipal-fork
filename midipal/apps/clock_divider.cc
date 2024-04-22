@@ -23,7 +23,7 @@
 
 namespace midipal { namespace apps {
 
-const prog_uint8_t clock_divider_factory_data[2] PROGMEM = {
+const uint8_t clock_divider_factory_data[2] PROGMEM = {
   1, 0,
 };
 

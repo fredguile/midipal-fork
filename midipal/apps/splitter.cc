@@ -25,7 +25,7 @@
 
 namespace midipal { namespace apps {
 
-const prog_uint8_t splitter_factory_data[4] PROGMEM = {
+const uint8_t splitter_factory_data[4] PROGMEM = {
   0, 48, 0, 1
 };
 

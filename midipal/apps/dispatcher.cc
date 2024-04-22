@@ -31,7 +31,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t dispatcher_factory_data[5] PROGMEM = {
+const uint8_t dispatcher_factory_data[5] PROGMEM = {
   0, 0, 0, 3, 1
 };
 

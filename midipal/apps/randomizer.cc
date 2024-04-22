@@ -30,7 +30,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t randomizer_factory_data[8] PROGMEM = {
+const uint8_t randomizer_factory_data[8] PROGMEM = {
   0, 127, 12, 32, 0, 0, 7, 10
 };
 

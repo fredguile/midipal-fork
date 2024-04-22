@@ -28,7 +28,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t transposer_factory_data[2] PROGMEM = {
+const uint8_t transposer_factory_data[2] PROGMEM = {
   0, 0
 };
 

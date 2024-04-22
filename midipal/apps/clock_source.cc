@@ -28,7 +28,7 @@
 
 namespace midipal { namespace apps {
 
-const prog_uint8_t clock_source_factory_data[4] PROGMEM = {
+const uint8_t clock_source_factory_data[4] PROGMEM = {
   0, 120, 0, 0
 };
 

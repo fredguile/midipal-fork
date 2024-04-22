@@ -25,7 +25,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t combiner_factory_data[3] PROGMEM = {
+const uint8_t combiner_factory_data[3] PROGMEM = {
   0, 3, 0
 };
 

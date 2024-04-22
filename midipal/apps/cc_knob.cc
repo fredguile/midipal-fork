@@ -27,7 +27,7 @@ namespace midipal { namespace apps {
 
 using namespace avrlib;
 
-const prog_uint8_t cc_knob_factory_data[6] PROGMEM = {
+const uint8_t cc_knob_factory_data[6] PROGMEM = {
   63, 0, 0, 7, 0, 127
 };
 
