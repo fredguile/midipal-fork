@@ -1,6 +1,6 @@
 # Midipal (Fork)
 
-Midipal, the MIDI swiss army knife (fork version).
+Midipal, the MIDI swiss army knife (forked version).
 
 This is a fork of these read-only repos:
 - https://github.com/pichenettes/midipal
